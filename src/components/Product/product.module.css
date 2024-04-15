@@ -1,0 +1,40 @@
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 350px;    
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.desc{
+    color: gray;
+    font-size: 13px;
+}
+
+.title{
+    margin: 0;
+    font-size: medium;
+}
+
+.price{
+    font-size: 20px;
+    margin: 0;
+}
+
+.image{
+ margin-left: 85px;
+    width: 500px;
+   display: flex;
+   align-items: center;
+
+
+    height: 195px;
+}
+
+img{
+    width: 50%;
+    border-radius: 5px;
+}

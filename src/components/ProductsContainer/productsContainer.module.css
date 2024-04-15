@@ -1,0 +1,11 @@
+.productsContainer{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding: 10px 9% 10px 6% ;
+    margin-top: 10vh;
+    height: 300px;
+}
