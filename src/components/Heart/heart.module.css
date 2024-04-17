@@ -1,0 +1,22 @@
+
+
+.svg{
+    position: relative;
+    
+}
+
+
+.number{
+background-color: black;
+color: white;
+border-radius: 50%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+left: 312px;
+top: 60px;
+width: 15px;
+height: 15px;
+}  
