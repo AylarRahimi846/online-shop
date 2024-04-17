@@ -14,7 +14,6 @@ import FavoriteItems from "../context/favoriteItem/FavoriteItem"
 function Home(){
 const [products,setProducts]=useState([])
 const [filteredProducts , setFilteredProducts] = useState([])
-const [favoriteItems, setFavoriteItems] = useState([])
 const data = useFetch('https://fakestoreapi.com/products')
 
 useEffect(() => {
@@ -31,13 +30,6 @@ useEffect(() => {
           setFilteredProducts
         }}>
 
-
-       <FavoriteItems.Provider value={{
-                    favoriteItems,
-                    setFavoriteItems
-                }}>
-
-
     <Header />
     <div className={CSS.heading}>
       <p className={CSS.starter}>Welcome to our store</p>
@@ -45,7 +37,6 @@ useEffect(() => {
     </div>
     <FilterBar />
     <ProductsContainer />
-    </FavoriteItems.Provider>
     </Products.Provider>
     </>
 
