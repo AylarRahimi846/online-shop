@@ -1,0 +1,42 @@
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 6%;
+    min-height: 65vh;
+}
+
+.image {
+    width: 50%;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.category {
+    opacity: .6;
+    margin: 25px 0;
+}
+
+.category span {
+    font-weight: 600;
+}
+
+.price {
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+.addBtn {
+    background-color: #ffc444 ;
+    color: black;
+    padding: 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

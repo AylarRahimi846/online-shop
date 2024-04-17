@@ -2,10 +2,12 @@ import { useContext } from 'react'
 import CSS from './product.module.css'
 import Heart from '../Heart/Heart'
 import FavoriteItems from '../context/favoriteItem/FavoriteItem'
+import { useNavigate } from 'react-router-dom';
 
 function Product({data}){
 
     const { favoriteItems, setFavoriteItems } = useContext(FavoriteItems)
+    const navigate = useNavigate()
 
     const isFavorite = favoriteItems.find((item) => item.id === data.id);
 
@@ -21,7 +23,7 @@ function Product({data}){
     
     return(
      <>
-         <div className={CSS.product}>
+         <div className={CSS.product} onClick={() => navigate(`/product/${data.id}`)}>
             <div className={CSS.image}><img src={data.image} alt="" /></div>
             <div className={CSS.text}>
                 <h3 className={CSS.title}>{data.title}</h3>

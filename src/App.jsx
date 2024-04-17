@@ -3,6 +3,7 @@ import Home from "./components/Home/Home"
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import FavPage from "./components/FavPage/FavPage"
 import FavoriteItems from "./components/context/favoriteItem/FavoriteItem"
+import ProductDetail from "./components/ProductDetail/ProductDetail"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/favorite" element={<FavPage />} />
+                <Route path="/product/:id" element={<ProductDetail />} />
               </Routes>
             </BrowserRouter>
           </FavoriteItems.Provider>
