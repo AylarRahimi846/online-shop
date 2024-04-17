@@ -17,7 +17,7 @@ function FavPage() {
                     favoriteItems.map(item => {
                         return <Product key={item.id} data={item} />
                     }) :
-                    <p>there is no favorite item</p>
+                    <p>there is no item</p>
                 }
             </div>
         </>

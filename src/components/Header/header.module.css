@@ -9,8 +9,8 @@
 
 .header div{
     width: 220px;
-    height: 170px;
-    aspect-ratio: 1/1;
+    /* height: 170px;
+    aspect-ratio: 1/1; */
     overflow: hidden;
 
 
@@ -33,6 +33,7 @@
 
 svg{
  margin: 10px;
+ height: 30px;
 }
 
 

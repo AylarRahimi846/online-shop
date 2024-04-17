@@ -1,6 +1,6 @@
 
 
-.svg{
+.upHeart{
     position: relative;
     
 }
@@ -15,8 +15,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 5px;
-left: 312px;
-top: 60px;
+left: 25px;
+top: -10px;
 width: 15px;
 height: 15px;
+z-index: 1;
 }  
