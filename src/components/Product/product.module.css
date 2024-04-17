@@ -43,13 +43,13 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 
 }
 
-.heart{
-   width: 100px;
-   height: 100px;
-
+svg{
+    width: 30px;
+    height: 30px;
 }
 .text{
     flex: 1;

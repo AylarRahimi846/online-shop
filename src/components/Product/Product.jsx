@@ -28,7 +28,7 @@ function Product({data}){
                 <p className={CSS.desc}>category: {data.category}</p>
                 <div className={CSS.favorite}>
                 <p className={CSS.price}>{data.price}$</p>
-               <p className={CSS.heart}><Heart onClick={handleClick} fill={isFavorite ? "red" : ""} /></p>
+                <Heart onClick={handleClick} fill={isFavorite ? "red" : ""} />
                 </div>
             </div>
         </div>
